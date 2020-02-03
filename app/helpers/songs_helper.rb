@@ -5,4 +5,5 @@ module SongsHelper
     else
       link_to song.artist_name, artist_path(song.artist)
     end
+  end
 end
